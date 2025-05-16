@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RE-AUTO Car Rental</title>
+    <meta name="description" content="Console-based car rental service">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <div class="logo-placeholder">RE-AUTO</div>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#info-section">Info</a></li>
+                <li><a href="#download-cta">Download</a></li>
+                <li><a href="#user-guide">User Guide</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to our car-rental service <span class="highlight">RE-AUTO</span></h1>
+            <p class="subtitle">RE-Auto is a car rental service that operates only through the JAVA console.</p>
+            <div class="cta-buttons">
+                <a href="#info-section" class="btn primary">Get Started</a>
+                <a href="#download-cta" class="btn secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="src/img/bmwe381.png" alt="Luxury car" loading="lazy">
+        </div>
+    </section>
+    <section id="info-section" class="info-section">
+        <div class="container">
+            <h2>About Our System</h2>
+            <div class="content-wrapper">
+                <div class="text-content">
+                    <p>Our intuitive car rental system puts you in control:</p>
+                    <ul class="feature-list">
+                        <li><strong>Smart Vehicle Browse</strong> - View available cars sorted by make, with clear reservation status indicators</li>
+                        <li><strong>Flexible Booking</strong> - Choose preset durations (hour/day/week) or custom rentals (with adjusted pricing)</li>
+                        <li><strong>Dual Payment Options</strong> - Pay directly by card or use account balance for loyalty rewards</li>
+                        <li><strong>Instant Cost Calculation</strong> - System automatically computes rental totals including any applicable fees</li>
+                        <li><strong>Credit & Loyalty Benefits</strong> - Our private credit system boosts your standing with each rental</li>
+                        <li><strong>Secure Accounts</strong> - Simple email/password registration with validation checks for security</li>
+                    </ul>
+                    <p>The command-line interface ensures fast, reliable service for both new and experienced users.</p>
+                </div>
+                <div class="cli-screenshot">
+                    <img src="https://docs.onap.org/projects/onap-cli/en/montreal/_images/portal-cli-shell.png" 
+                         alt="Car Rental CLI Interface"
+                         loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="user-guide" class="user-guide">
+        <div class="container">
+            <h2>User Guide</h2>
+            <div class="guide-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Download & Setup</h3>
+                        <ul>
+                            <li>Download the project from our Download section</li>
+                            <li>Open the project in Visual Studio Code</li>
+                            <li>Run the application</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Account Access</h3>
+                        <ul>
+                            <li>Register a new account or log in</li>
+                            <li>Add funds to your balance or pay directly</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Vehicle Selection</h3>
+                        <ul>
+                            <li>Browse available cars by make/model</li>
+                            <li>Filter options to find your perfect vehicle</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Rental Process</h3>
+                        <ul>
+                            <li>Select rental duration (preset or custom)</li>
+                            <li>Confirm payment when price displays</li>
+                            <li>Review rental agreement terms</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Important Reminders</h3>
+                        <ul>
+                            <li>Return vehicle on time to avoid penalties</li>
+                            <li>Follow all rental agreement terms</li>
+                            <li>Contact support for any issues</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="download-cta" class="download-cta">
+        <div class="container">
+            <h3>Need a guide to show how to run our program?</h3>
+            <p style="color: white;">Download our user guide on how to run this program below:</p>
+            <a href="src\UserGuide.pdf" target="_blank" class="btn download-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 15V3M12 15L8 11M12 15L16 11M21 15V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                UserGuide.pdf
+            </a>
+        </div>
+    </section>
+    <section id="download-cta" class="download-cta">
+        <div class="container">
+            <h3>Ready to Get Started?</h3>
+            <p style="color: white;">Download our software today and experience the difference</p>
+            <a href="https://github.com/23DP3RObru/AutoNoma/releases" class="btn download-btn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 15V3M12 15L8 11M12 15L16 11M21 15V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                GitHub releases
+            </a>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="footer-logo">RE-AUTO</div>
+            <div class="footer-links">
+                <a href="#info-section">About</a>
+                <a href="#download-cta">Download</a>
+                <a href="#user-guide">User Guide</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="footer-contact">
+                <p>Email: contact@re-auto.com</p>
+                <p>Phone: +371272762</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2025 RE-AUTO Car Rental. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const headerHeight = document.querySelector('header').offsetHeight;
+                    const targetPosition = targetElement.offsetTop - headerHeight;
+                    
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                
+                    history.pushState(null, null, targetId);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
